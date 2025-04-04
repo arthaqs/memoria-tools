@@ -1,0 +1,6 @@
+.vs/
+*.user
+*.suo
+*.vsidx
+*.db
+*.VC.db
