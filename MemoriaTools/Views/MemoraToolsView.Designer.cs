@@ -35,13 +35,6 @@ partial class MemoraToolsView
         sidePanel = new Panel();
         sideFlowLayoutPanel = new FlowLayoutPanel();
         obsidianToGitButton = new Button();
-        gitToCliButton = new Button();
-        button3 = new Button();
-        button4 = new Button();
-        button5 = new Button();
-        button6 = new Button();
-        button7 = new Button();
-        button8 = new Button();
         bottomToolStrip = new ToolStrip();
         mainMenuStrip = new MenuStrip();
         fileToolStripMenuItem = new ToolStripMenuItem();
@@ -73,9 +66,11 @@ partial class MemoraToolsView
         searchToolStripMenuItem = new ToolStripMenuItem();
         toolStripSeparator5 = new ToolStripSeparator();
         aboutToolStripMenuItem = new ToolStripMenuItem();
+        logBottomToolStripLabel = new ToolStripLabel();
         fullPanel.SuspendLayout();
         sidePanel.SuspendLayout();
         sideFlowLayoutPanel.SuspendLayout();
+        bottomToolStrip.SuspendLayout();
         mainMenuStrip.SuspendLayout();
         SuspendLayout();
         // 
@@ -110,13 +105,6 @@ partial class MemoraToolsView
         // sideFlowLayoutPanel
         // 
         sideFlowLayoutPanel.Controls.Add(obsidianToGitButton);
-        sideFlowLayoutPanel.Controls.Add(gitToCliButton);
-        sideFlowLayoutPanel.Controls.Add(button3);
-        sideFlowLayoutPanel.Controls.Add(button4);
-        sideFlowLayoutPanel.Controls.Add(button5);
-        sideFlowLayoutPanel.Controls.Add(button6);
-        sideFlowLayoutPanel.Controls.Add(button7);
-        sideFlowLayoutPanel.Controls.Add(button8);
         sideFlowLayoutPanel.Dock = DockStyle.Fill;
         sideFlowLayoutPanel.Location = new Point(0, 0);
         sideFlowLayoutPanel.Name = "sideFlowLayoutPanel";
@@ -134,80 +122,10 @@ partial class MemoraToolsView
         obsidianToGitButton.UseVisualStyleBackColor = true;
         obsidianToGitButton.Click += obsidianToGitButton_Click;
         // 
-        // gitToCliButton
-        // 
-        gitToCliButton.AutoSize = true;
-        gitToCliButton.Location = new Point(3, 50);
-        gitToCliButton.Name = "gitToCliButton";
-        gitToCliButton.Size = new Size(132, 41);
-        gitToCliButton.TabIndex = 1;
-        gitToCliButton.Text = "GitCLI";
-        gitToCliButton.UseVisualStyleBackColor = true;
-        gitToCliButton.Click += gitToCliButton_Click;
-        // 
-        // button3
-        // 
-        button3.AutoSize = true;
-        button3.Location = new Point(3, 97);
-        button3.Name = "button3";
-        button3.Size = new Size(132, 41);
-        button3.TabIndex = 2;
-        button3.Text = "button3";
-        button3.UseVisualStyleBackColor = true;
-        // 
-        // button4
-        // 
-        button4.AutoSize = true;
-        button4.Location = new Point(3, 144);
-        button4.Name = "button4";
-        button4.Size = new Size(132, 41);
-        button4.TabIndex = 3;
-        button4.Text = "button4";
-        button4.UseVisualStyleBackColor = true;
-        // 
-        // button5
-        // 
-        button5.AutoSize = true;
-        button5.Location = new Point(3, 191);
-        button5.Name = "button5";
-        button5.Size = new Size(132, 41);
-        button5.TabIndex = 4;
-        button5.Text = "button5";
-        button5.UseVisualStyleBackColor = true;
-        // 
-        // button6
-        // 
-        button6.AutoSize = true;
-        button6.Location = new Point(3, 238);
-        button6.Name = "button6";
-        button6.Size = new Size(132, 41);
-        button6.TabIndex = 5;
-        button6.Text = "button6";
-        button6.UseVisualStyleBackColor = true;
-        // 
-        // button7
-        // 
-        button7.AutoSize = true;
-        button7.Location = new Point(3, 285);
-        button7.Name = "button7";
-        button7.Size = new Size(132, 41);
-        button7.TabIndex = 6;
-        button7.Text = "button7";
-        button7.UseVisualStyleBackColor = true;
-        // 
-        // button8
-        // 
-        button8.AutoSize = true;
-        button8.Location = new Point(3, 332);
-        button8.Name = "button8";
-        button8.Size = new Size(132, 41);
-        button8.TabIndex = 7;
-        button8.Text = "button8";
-        button8.UseVisualStyleBackColor = true;
-        // 
         // bottomToolStrip
         // 
         bottomToolStrip.Dock = DockStyle.Bottom;
+        bottomToolStrip.Items.AddRange(new ToolStripItem[] { logBottomToolStripLabel });
         bottomToolStrip.Location = new Point(0, 678);
         bottomToolStrip.Name = "bottomToolStrip";
         bottomToolStrip.Size = new Size(1018, 25);
@@ -420,6 +338,11 @@ partial class MemoraToolsView
         aboutToolStripMenuItem.Size = new Size(122, 22);
         aboutToolStripMenuItem.Text = "&About...";
         // 
+        // logBottomToolStripLabel
+        // 
+        logBottomToolStripLabel.Name = "logBottomToolStripLabel";
+        logBottomToolStripLabel.Size = new Size(0, 22);
+        // 
         // MemoraToolsView
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
@@ -430,11 +353,14 @@ partial class MemoraToolsView
         MainMenuStrip = mainMenuStrip;
         Name = "MemoraToolsView";
         Text = "Memoria Tools";
+        Load += MemoraToolsView_Load;
         fullPanel.ResumeLayout(false);
         fullPanel.PerformLayout();
         sidePanel.ResumeLayout(false);
         sideFlowLayoutPanel.ResumeLayout(false);
         sideFlowLayoutPanel.PerformLayout();
+        bottomToolStrip.ResumeLayout(false);
+        bottomToolStrip.PerformLayout();
         mainMenuStrip.ResumeLayout(false);
         mainMenuStrip.PerformLayout();
         ResumeLayout(false);
@@ -483,11 +409,5 @@ partial class MemoraToolsView
     private Panel sidePanel;
     private FlowLayoutPanel sideFlowLayoutPanel;
     private Button obsidianToGitButton;
-    private Button gitToCliButton;
-    private Button button3;
-    private Button button4;
-    private Button button5;
-    private Button button6;
-    private Button button7;
-    private Button button8;
+    private ToolStripLabel logBottomToolStripLabel;
 }

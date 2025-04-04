@@ -1,12 +1,19 @@
 ﻿using MemoriaTools.Controllers;
+using MemoriaToolsInterfaces;
 using System;
 using System.Windows.Forms;
 
 namespace MemoriaTools
 {
-    public partial class GitCliView : UserControl
+    public partial class GitCliView : UserControl, IPluginView
     {
         private GitController m_gitController;
+
+        public event EventHandler<ViewEventArgs> OnLogRequested;
+
+        public string Title => "GITHUB CLI";
+
+        public string ButtonName => "Git CLI";
 
         public GitCliView()
         {
@@ -27,6 +34,12 @@ namespace MemoriaTools
         {
             var output = m_gitController.TestConnection(repoNameTextBox.Text);
             logRichTextBox.AppendText(output);
+
+            var args = new ViewEventArgs()
+            {
+                Message = "Remote Repo Tested."
+            };
+            OnLogRequested?.Invoke(this, args);
         }
 
         private void buttonPull_Click(object sender, EventArgs e)
@@ -67,6 +80,11 @@ namespace MemoriaTools
         private void reuseLastCommentButton_Click(object sender, EventArgs e)
         {
             commitCommentRichTextBox.Text = lastCommitCommentRichTextBox.Text;
+        }
+
+        public void Initialize()
+        {
+            
         }
     }
 }

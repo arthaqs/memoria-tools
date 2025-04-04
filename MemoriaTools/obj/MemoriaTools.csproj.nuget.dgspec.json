@@ -4,6 +4,21 @@
     "E:\\projects\\software\\memoria_tools\\src\\MemoriaTools\\MemoriaTools.csproj": {}
   },
   "projects": {
+    "E:\\projects\\software\\memoria_tools\\src\\MemoriaToolsInterfaces\\MemoriaToolsInterfaces.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\projects\\software\\memoria_tools\\src\\MemoriaToolsInterfaces\\MemoriaToolsInterfaces.csproj",
+        "projectName": "MemoriaToolsInterfaces",
+        "projectPath": "E:\\projects\\software\\memoria_tools\\src\\MemoriaToolsInterfaces\\MemoriaToolsInterfaces.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "E:\\projects\\software\\memoria_tools\\src\\MemoriaTools\\MemoriaTools.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -33,7 +48,11 @@
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\projects\\software\\memoria_tools\\src\\MemoriaToolsInterfaces\\MemoriaToolsInterfaces.csproj": {
+                "projectPath": "E:\\projects\\software\\memoria_tools\\src\\MemoriaToolsInterfaces\\MemoriaToolsInterfaces.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

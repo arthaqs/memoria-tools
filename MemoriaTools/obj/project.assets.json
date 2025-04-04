@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "MemoriaToolsInterfaces/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/MemoriaToolsInterfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MemoriaToolsInterfaces.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MemoriaToolsInterfaces/1.0.0": {
+      "type": "project",
+      "path": "../MemoriaToolsInterfaces/MemoriaToolsInterfaces.csproj",
+      "msbuildProject": "../MemoriaToolsInterfaces/MemoriaToolsInterfaces.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "MemoriaToolsInterfaces >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\artha\\.nuget\\packages\\": {},
@@ -40,7 +58,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\projects\\software\\memoria_tools\\src\\MemoriaToolsInterfaces\\MemoriaToolsInterfaces.csproj": {
+              "projectPath": "E:\\projects\\software\\memoria_tools\\src\\MemoriaToolsInterfaces\\MemoriaToolsInterfaces.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

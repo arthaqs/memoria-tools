@@ -14,7 +14,11 @@ E:\projects\software\memoria_tools\src\MemoriaTools\obj\Debug\net8.0-windows\Mem
 E:\projects\software\memoria_tools\src\MemoriaTools\obj\Debug\net8.0-windows\ref\MemoriaTools.dll
 E:\projects\software\memoria_tools\src\MemoriaTools\obj\Debug\net8.0-windows\MemoriaTools.csproj.GenerateResource.cache
 E:\projects\software\memoria_tools\src\MemoriaTools\obj\Debug\net8.0-windows\MemoriaTools.ModuleTemplateView.resources
-E:\projects\software\memoria_tools\src\MemoriaTools\obj\Debug\net8.0-windows\MemoriaTools.GitCliView.resources
 E:\projects\software\memoria_tools\src\MemoriaTools\obj\Debug\net8.0-windows\MemoriaTools.MemoraToolsView.resources
 E:\projects\software\memoria_tools\src\MemoriaTools\obj\Debug\net8.0-windows\MemoriaTools.ObsidianToGitView.resources
 E:\projects\software\memoria_tools\src\MemoriaTools\bin\Debug\net8.0-windows\MemoriaTools.dll.config
+E:\projects\software\memoria_tools\src\MemoriaTools\obj\Debug\net8.0-windows\MemoriaTools.sourcelink.json
+E:\projects\software\memoria_tools\src\MemoriaTools\bin\Debug\net8.0-windows\MemoriaToolsInterfaces.dll
+E:\projects\software\memoria_tools\src\MemoriaTools\bin\Debug\net8.0-windows\MemoriaToolsInterfaces.pdb
+E:\projects\software\memoria_tools\src\MemoriaTools\obj\Debug\net8.0-windows\MemoriaTools.csproj.AssemblyReference.cache
+E:\projects\software\memoria_tools\src\MemoriaTools\obj\Debug\net8.0-windows\MemoriaT.2EC5A334.Up2Date

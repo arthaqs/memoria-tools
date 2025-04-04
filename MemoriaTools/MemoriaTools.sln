@@ -1,6 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoriaTools", "MemoriaTools.csproj", "{62DA938F-0552-41B9-98A4-3A230309CE07}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoriaTools", "MemoriaTools.csproj", "{62DA938F-0552-41B9-98A4-3A230309CE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitCLI", "..\Plugins\GitCLI\GitCLI.csproj", "{18BC5610-4FD6-4A35-B34F-209EF09F20F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoriaToolsInterfaces", "..\MemoriaToolsInterfaces\MemoriaToolsInterfaces.csproj", "{37B64DF4-4F05-414C-96C0-0CFFBBB5B11E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +19,19 @@ Global
 		{62DA938F-0552-41B9-98A4-3A230309CE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62DA938F-0552-41B9-98A4-3A230309CE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62DA938F-0552-41B9-98A4-3A230309CE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BC5610-4FD6-4A35-B34F-209EF09F20F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BC5610-4FD6-4A35-B34F-209EF09F20F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BC5610-4FD6-4A35-B34F-209EF09F20F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BC5610-4FD6-4A35-B34F-209EF09F20F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B64DF4-4F05-414C-96C0-0CFFBBB5B11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B64DF4-4F05-414C-96C0-0CFFBBB5B11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B64DF4-4F05-414C-96C0-0CFFBBB5B11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B64DF4-4F05-414C-96C0-0CFFBBB5B11E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C19C42D-6760-4793-A6B9-E4891CBE9620}
 	EndGlobalSection
 EndGlobal

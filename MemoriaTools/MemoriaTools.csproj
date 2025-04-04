@@ -14,9 +14,6 @@
         <AutoGen>True</AutoGen>
         <DependentUpon>Settings.settings</DependentUpon>
       </Compile>
-      <Compile Update="Views\GitCliView.cs">
-        <SubType>UserControl</SubType>
-      </Compile>
       <Compile Update="Views\ObsidianToGitView.cs">
         <SubType>UserControl</SubType>
       </Compile>
@@ -24,6 +21,11 @@
 
     <ItemGroup>
       <Folder Include="Data\" />
+      <Folder Include="Models\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MemoriaToolsInterfaces\MemoriaToolsInterfaces.csproj" />
     </ItemGroup>
 
     <ItemGroup>

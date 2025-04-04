@@ -1,4 +1,7 @@
-﻿namespace MemoriaTools
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace MemoriaTools
 {
     partial class GitCliView
     {
@@ -249,7 +252,7 @@
             // 
             // localRepofolderBrowserDialog
             // 
-            localRepofolderBrowserDialog.InitialDirectory = "e:\\projects\\software";
+            localRepofolderBrowserDialog.SelectedPath = "e:\\projects\\software";
             // 
             // groupBox1
             // 
