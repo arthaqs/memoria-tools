@@ -34,6 +34,7 @@ namespace MemoriaTools
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MemoraToolsView));
             this.fullPanel = new System.Windows.Forms.Panel();
             this.contentPanel = new System.Windows.Forms.Panel();
             this.sidePanel = new System.Windows.Forms.Panel();
@@ -41,7 +42,8 @@ namespace MemoriaTools
             this.bottomToolStrip = new System.Windows.Forms.ToolStrip();
             this.logBottomToolStripLabel = new System.Windows.Forms.ToolStripLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.menuManagePlugins = new System.Windows.Forms.ToolStripMenuItem();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loadPluginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fullPanel.SuspendLayout();
             this.sidePanel.SuspendLayout();
@@ -106,7 +108,7 @@ namespace MemoriaTools
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuManagePlugins,
+            this.fileToolStripMenuItem,
             this.loadPluginToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -114,12 +116,20 @@ namespace MemoriaTools
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // menuManagePlugins
+            // fileToolStripMenuItem
             // 
-            this.menuManagePlugins.Name = "menuManagePlugins";
-            this.menuManagePlugins.Size = new System.Drawing.Size(104, 20);
-            this.menuManagePlugins.Text = "Manage Plugins";
-            this.menuManagePlugins.Click += new System.EventHandler(this.menuManagePlugins_Click);
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exitToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // loadPluginToolStripMenuItem
             // 
@@ -137,6 +147,7 @@ namespace MemoriaTools
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MemoraToolsView";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Memoria Tools";
             this.Load += new System.EventHandler(this.MemoraToolsView_Load);
             this.fullPanel.ResumeLayout(false);
@@ -163,7 +174,8 @@ namespace MemoriaTools
         private FlowLayoutPanel sideFlowLayoutPanel;
         private ToolStripLabel logBottomToolStripLabel;
         private MenuStrip menuStrip1;
-        private ToolStripMenuItem menuManagePlugins;
         private ToolStripMenuItem loadPluginToolStripMenuItem;
+        private ToolStripMenuItem fileToolStripMenuItem;
+        private ToolStripMenuItem exitToolStripMenuItem;
     }
 }

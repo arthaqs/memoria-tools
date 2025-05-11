@@ -88,5 +88,10 @@ namespace MemoriaTools
             m_memoriaToolsController.LoadPluginFromDialog();
             LoadPluginButtons();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

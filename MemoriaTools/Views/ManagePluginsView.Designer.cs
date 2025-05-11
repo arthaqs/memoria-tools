@@ -1,4 +1,6 @@
-﻿namespace MemoriaTools.Views
+﻿using System.Drawing;
+
+namespace MemoriaTools.Views
 {
     partial class ManagePluginsView
     {
@@ -28,6 +30,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManagePluginsView));
             this.checkedListBox = new System.Windows.Forms.CheckedListBox();
             this.SuspendLayout();
             // 

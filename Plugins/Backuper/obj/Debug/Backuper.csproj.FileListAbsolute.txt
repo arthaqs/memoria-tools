@@ -1,14 +1,7 @@
+D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\Backuper.dll.config
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\Backuper.dll
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\Backuper.pdb
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\MemoriaToolsInterfaces.dll
-D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\MemoriaToolsInterfaces.pdb
-D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.csproj.AssemblyReference.cache
-D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.csproj.GenerateResource.cache
-D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.csproj.CoreCompileInputs.cache
-D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.csproj.Up2Date
-D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.dll
-D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.pdb
-D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\Backuper.dll.config
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\System.Buffers.dll
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\System.IO.Pipelines.dll
@@ -19,6 +12,7 @@ D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\System.Text.En
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\System.Text.Json.dll
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\System.Threading.Tasks.Extensions.dll
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\System.ValueTuple.dll
+D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\MemoriaToolsInterfaces.pdb
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\System.Buffers.xml
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\System.IO.Pipelines.xml
@@ -29,5 +23,11 @@ D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\System.Text.En
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\System.Text.Json.xml
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\software\projects\memoria_tools\src\Plugins\Backuper\bin\Debug\System.ValueTuple.xml
+D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.csproj.AssemblyReference.cache
 D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.BackuperView.resources
 D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.Properties.Resources.resources
+D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.csproj.GenerateResource.cache
+D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.csproj.CoreCompileInputs.cache
+D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.csproj.Up2Date
+D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.dll
+D:\software\projects\memoria_tools\src\Plugins\Backuper\obj\Debug\Backuper.pdb
