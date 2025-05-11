@@ -13,8 +13,10 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("MemoriaTools")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("© Memoria Studio 2017 - 2025")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute(@"Memoria Tools is here to save your day (and maybe your sanity) with custom plugins that make life on your Windows PC or laptop just a little easier. Whether you’re diving deep into Git commits, backing up your files like a boss, or automating those annoying repetitive tasks, Memoria Tools has got your back. Think of it as your personal productivity wizard — no magic wand required.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+025cbef809de4500c2cf1190cda111c90fa1b2ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0122ee4fcfc3a754ef646da5fdbaf3a0bb69329f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MemoriaTools")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MemoriaTools")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

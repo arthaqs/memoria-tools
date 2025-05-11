@@ -34,7 +34,6 @@ namespace MemoriaTools
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MemoraToolsView));
             this.fullPanel = new System.Windows.Forms.Panel();
             this.contentPanel = new System.Windows.Forms.Panel();
             this.sidePanel = new System.Windows.Forms.Panel();
@@ -45,6 +44,7 @@ namespace MemoriaTools
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loadPluginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fullPanel.SuspendLayout();
             this.sidePanel.SuspendLayout();
             this.bottomToolStrip.SuspendLayout();
@@ -109,7 +109,8 @@ namespace MemoriaTools
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.loadPluginToolStripMenuItem});
+            this.loadPluginToolStripMenuItem,
+            this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(873, 24);
@@ -137,6 +138,13 @@ namespace MemoriaTools
             this.loadPluginToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.loadPluginToolStripMenuItem.Text = "Load Plugin";
             this.loadPluginToolStripMenuItem.Click += new System.EventHandler(this.loadPluginToolStripMenuItem_Click);
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // MemoraToolsView
             // 
@@ -177,5 +185,6 @@ namespace MemoriaTools
         private ToolStripMenuItem loadPluginToolStripMenuItem;
         private ToolStripMenuItem fileToolStripMenuItem;
         private ToolStripMenuItem exitToolStripMenuItem;
+        private ToolStripMenuItem aboutToolStripMenuItem;
     }
 }

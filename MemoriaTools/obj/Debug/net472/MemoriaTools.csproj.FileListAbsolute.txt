@@ -15,3 +15,6 @@ D:\software\projects\memoria_tools\src\MemoriaTools\obj\Debug\net472\MemoriaTool
 D:\software\projects\memoria_tools\src\MemoriaTools\obj\Debug\net472\MemoriaT.2EC5A334.Up2Date
 D:\software\projects\memoria_tools\src\MemoriaTools\obj\Debug\net472\MemoriaTools.exe
 D:\software\projects\memoria_tools\src\MemoriaTools\obj\Debug\net472\MemoriaTools.pdb
+D:\software\projects\memoria_tools\src\MemoriaTools\obj\Debug\net472\MemoriaTools.Properties.Resources.resources
+D:\software\projects\memoria_tools\src\MemoriaTools\obj\Debug\net472\MemoriaTools.Views.MemoraToolsView.resources
+D:\software\projects\memoria_tools\src\MemoriaTools\obj\Debug\net472\MemoriaTools.Views.AboutBox.resources

@@ -1,4 +1,5 @@
 using MemoriaTools.Controllers;
+using MemoriaTools.Views;
 using MemoriaToolsInterfaces;
 using System;
 using System.Drawing;
@@ -15,6 +16,8 @@ namespace MemoriaTools
         {
             InitializeComponent();
             m_memoriaToolsController = new MemoriaToolsController();
+
+            this.Icon = new Icon("MemoriaIcon2.ico");
         }
 
         private void gitToCliButton_Click(object sender, EventArgs e)
@@ -92,6 +95,12 @@ namespace MemoriaTools
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var aboutForm = new AboutBox();
+            aboutForm.ShowDialog();
         }
     }
 }

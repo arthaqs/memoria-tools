@@ -1,25 +1,43 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <OutputType>WinExe</OutputType>
-        <TargetFramework>net472</TargetFramework>
-	    <UseWPF>false</UseWPF>
-        <UseWindowsForms>true</UseWindowsForms>
-    </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net472</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<Win32Resource>AppIcon.res</Win32Resource>
+		<Description>Memoria Tools is here to save your day (and maybe your sanity) with custom plugins that make life on your Windows PC or laptop just a little easier. Whether you’re diving deep into Git commits, backing up your files like a boss, or automating those annoying repetitive tasks, Memoria Tools has got your back. Think of it as your personal productivity wizard — no magic wand required.</Description>
+		<Copyright>© Memoria Studio 2017 - 2025</Copyright>
+	</PropertyGroup>
 
-    <ItemGroup>
-      <Compile Update="Views\ObsidianToGitView.cs">
-        <SubType>UserControl</SubType>
-      </Compile>
-    </ItemGroup>
+	<ItemGroup>
+	  <Content Include="MemoriaIcon2.ico" />
+	</ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Data\" />
-      <Folder Include="Models\" />
-    </ItemGroup>
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Views\ObsidianToGitView.cs">
+			<SubType>UserControl</SubType>
+		</Compile>
+	</ItemGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\MemoriaToolsInterfaces\MemoriaToolsInterfaces.csproj" />
-    </ItemGroup>
+	<ItemGroup>
+		<Folder Include="Data\" />
+		<Folder Include="Models\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\MemoriaToolsInterfaces\MemoriaToolsInterfaces.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Properties\Resources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
 
 </Project>
