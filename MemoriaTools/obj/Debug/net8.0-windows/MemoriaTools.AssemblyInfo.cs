@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MemoriaTools")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd81a0b75c43528e97eb680305efdc6cefa2d1ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a43b7d56eaf21669fb478a85929cb0f25ddcb14")]
 [assembly: System.Reflection.AssemblyProductAttribute("MemoriaTools")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MemoriaTools")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

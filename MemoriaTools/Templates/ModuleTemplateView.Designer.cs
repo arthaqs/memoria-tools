@@ -1,4 +1,7 @@
-﻿namespace MemoriaTools
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace MemoriaTools
 {
     partial class ModuleTemplateView
     {

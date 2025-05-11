@@ -1,7 +1,18 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {
+    ".NETFramework,Version=v4.7.2": {
+      "MemoriaToolsInterfaces/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/MemoriaToolsInterfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MemoriaToolsInterfaces.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
       "MemoriaToolsInterfaces/1.0.0": {
         "type": "project",
         "compile": {
@@ -21,46 +32,45 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": [
+    ".NETFramework,Version=v4.7.2": [
       "MemoriaToolsInterfaces >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\artha\\.nuget\\packages\\": {},
-    "C:\\Software\\IDE\\Visual Studio 2022 Shared\\NuGetPackages": {}
+    "C:\\Users\\zeus\\.nuget\\packages\\": {},
+    "C:\\Software\\Development\\IDE\\Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projects\\software\\memoria_tools\\src\\MemoriaTools\\MemoriaTools.csproj",
+      "projectUniqueName": "D:\\software\\projects\\memoria_tools\\src\\MemoriaTools\\MemoriaTools.csproj",
       "projectName": "MemoriaTools",
-      "projectPath": "E:\\projects\\software\\memoria_tools\\src\\MemoriaTools\\MemoriaTools.csproj",
-      "packagesPath": "C:\\Users\\artha\\.nuget\\packages\\",
-      "outputPath": "E:\\projects\\software\\memoria_tools\\src\\MemoriaTools\\obj\\",
+      "projectPath": "D:\\software\\projects\\memoria_tools\\src\\MemoriaTools\\MemoriaTools.csproj",
+      "packagesPath": "C:\\Users\\zeus\\.nuget\\packages\\",
+      "outputPath": "D:\\software\\projects\\memoria_tools\\src\\MemoriaTools\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Software\\IDE\\Visual Studio 2022 Shared\\NuGetPackages"
+        "C:\\Software\\Development\\IDE\\Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\artha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zeus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0-windows"
+        "net472"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "E:\\projects\\software\\memko\\src\\memko-utilities\\memko-utilities\\bin\\Debug": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
+        "net472": {
+          "targetAlias": "net472",
           "projectReferences": {
-            "E:\\projects\\software\\memoria_tools\\src\\MemoriaToolsInterfaces\\MemoriaToolsInterfaces.csproj": {
-              "projectPath": "E:\\projects\\software\\memoria_tools\\src\\MemoriaToolsInterfaces\\MemoriaToolsInterfaces.csproj"
+            "D:\\software\\projects\\memoria_tools\\src\\MemoriaToolsInterfaces\\MemoriaToolsInterfaces.csproj": {
+              "projectPath": "D:\\software\\projects\\memoria_tools\\src\\MemoriaToolsInterfaces\\MemoriaToolsInterfaces.csproj"
             }
           }
         }
@@ -74,31 +84,18 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
-      "net8.0-windows7.0": {
-        "targetAlias": "net8.0-windows",
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48",
-          "net481"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+      "net472": {
+        "targetAlias": "net472",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x86": {
+        "#import": []
       }
     }
   }

@@ -1,16 +1,27 @@
-namespace MemoriaTools;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
-static class Program
+namespace MemoriaTools
 {
-    /// <summary>
-    ///  The main entry point for the application.
-    /// </summary>
-    [STAThread]
-    static void Main()
+    static class Program
     {
-        // To customize application configuration such as set high DPI settings or default font,
-        // see https://aka.ms/applicationconfiguration.
-        ApplicationConfiguration.Initialize();
-        Application.Run(new MemoraToolsView());
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // Initialize the application without ApplicationConfiguration
+            // ApplicationConfiguration.Initialize(); // Remove this line
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MemoraToolsView());
+        }
     }
 }
